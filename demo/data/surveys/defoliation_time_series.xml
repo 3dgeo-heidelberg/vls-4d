@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+        <scannerSettings id="tls" active="true" pulseFreq_hz="300000" verticalResolution_deg="0.034" horizontalResolution_deg="0.034" />
+        <survey name="tree_defoliation" platform="data/platforms.xml#tripod" scanner="data/scanners_tls.xml#riegl_vz400" scene="data/scenes/tree_defoliation.xml#swap_scene">
+        <leg>
+            <platformSettings x="-15" y="0" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="240" headRotateStop_deg="300" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        <leg>
+            <platformSettings x="-4.4" y="11.7" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="195" headRotateStop_deg="255" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        <leg>
+            <platformSettings x="14.3" y="6" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="105" headRotateStop_deg="165" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        <leg>
+            <platformSettings x="12.3" y="-11.8" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="15" headRotateStop_deg="75" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        <leg>
+            <platformSettings x="-9.4" y="-12.6" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="285" headRotateStop_deg="345" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        
+        </survey>
+    </document>

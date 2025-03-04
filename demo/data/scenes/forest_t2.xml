@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <scene id="forest_scene" name="Forest scene"  >
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/Circle.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree1.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree2.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree3.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree4.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree5.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree6.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree7.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree8.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree9.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree10.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree11.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree12.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree13.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree14.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+            
+            
+        </part>
+        <part   >
+            <filter type="objloader">
+                <param type="string" key="filepath" value="data/sceneparts/forest_t2/tree15.obj" />
+                <param type="string" key="up" value="z" />
+            </filter>
+        </part>
+    </scene>
+</document>

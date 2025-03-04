@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+
+<document>
+    <!-- ###################### BEGIN TLS Platforms for tilted setup with 6 positions ###################### -->
+    <platform id="tripod_tilt_1_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="0.0"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+
+    <platform id="tripod_tilt_2_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="60.0"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+
+    <platform id="tripod_tilt_3_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="-240.0"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+
+    <platform id="tripod_tilt_4_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="-180.0"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+
+    <platform id="tripod_tilt_5_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="-120.00000000000003"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+
+    <platform id="tripod_tilt_6_of_6" name="TLS Tripod with 90° tilt" type="static" drag="0">
+        <scannerMount x="0" y="0" z="1.5" rotations="local">
+            <rot axis="z" angle_deg="-60.00000000000004"/>
+            <rot axis="x" angle_deg="90"/>
+        </scannerMount>
+    </platform>
+    <!-- ###################### END TLS Platforms ###################### -->
+</document>

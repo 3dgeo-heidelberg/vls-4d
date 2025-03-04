@@ -1,0 +1,16 @@
+demo/data/sceneparts/*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Sphinx documentation
+docs/_build/
+
+# mkdocs documentation
+/site
+
+# Jupyter Notebook
+.ipynb_checkpoints
+

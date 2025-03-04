@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<document>
+        <scannerSettings id="tls" active="true" pulseFreq_hz="2200000" verticalResolution_deg="0.017" horizontalResolution_deg="0.017" />
+        <survey name="branch_anim_1" platform="data/platforms.xml#tripod" scanner="data/scanners_tls_custom.xml#riegl_vz600i" scene="data/scenes/branch_anim_1.xml#dyn_scene">
+        <leg>
+            <platformSettings x="-5" y="0" z="0" />
+            <scannerSettings template="tls" headRotateStart_deg="260" headRotateStop_deg="280" trajectoryTimeInterval_s="0.05" />
+        </leg>
+        
+        </survey>
+    </document>
