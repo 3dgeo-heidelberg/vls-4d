@@ -1,0 +1,6 @@
+conda install -c conda-forge mkdocs
+python -m pip install mkdocs-material
+python -m pip install mkdocs-jupyter
+python -m pip install jupyter_contrib_nbextensions
+python -m pip install jupyter
+python -m pip install mathjax

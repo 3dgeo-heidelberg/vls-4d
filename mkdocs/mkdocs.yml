@@ -1,0 +1,34 @@
+site_name: VLS-4D
+repo_url: https://github.com/3dgeo-heidelberg/vls-4d
+docs_dir: ../demo
+site_dir: ../site
+
+theme:
+  logo: ../demo/img/logo.png
+  favicon: ../demo/img/favicon.ico
+  name: material
+  custom_dir: overrides
+  palette:
+    primary: green
+    accent: light-green
+  features:
+    - search.highlight
+    - content.code.copy
+    - navigation.top
+    - navigation.footer
+use_directory_urls: false
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
+      include_requirejs: true
+      ignore_h1_titles: True
+      ignore: ["scripts/*.py"]
+  - search
+markdown_extensions:
+  - attr_list
+
+nav:
+- 'Home': 'index.md'
+- '1 Concept of static representations': '01_concept_of_static_representations/01_concept_of_static_representations.ipynb'
+- '2 Concept of many static snapshots': '02_concept_of_many_static_snapshots/02_concept_of_many_static_snapshots.ipynb'
+- '3 Concept of animation within the simulator': '03_concept_of_animation_within_the_simulator/03_concept_of_animation_within_the_simulator.ipynb'
