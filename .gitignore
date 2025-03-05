@@ -16,3 +16,4 @@ docs/_build/
 
 # HELIOS++
 *.scene
+demo/output/

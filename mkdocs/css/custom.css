@@ -1,0 +1,22 @@
+/* Target the specific div containing the rendered output */
+div.jp-Cell-outputWrapper pre {
+    font-size: 8px !important; /* Adjust font size */
+    line-height: 1.2 !important; /* Adjust line height */
+    overflow-x: auto !important; /* Add horizontal scroll if needed */
+    white-space: pre-wrap !important; /* Wrap long lines */
+    word-wrap: break-word !important; /* Break long words */
+    background-color: #f5f5f5 !important; /* Optional: Change background color */
+    padding: 10px !important; /* Optional: Add padding */
+    border-radius: 4px !important; /* Optional: Add rounded corners */
+}
+
+div.highlight pre {
+    font-size: 8px !important; /* Adjust font size */
+    line-height: 1.2 !important; /* Adjust line height */
+    overflow-x: auto !important; /* Add horizontal scroll if needed */
+    white-space: pre-wrap !important; /* Wrap long lines */
+    word-wrap: break-word !important; /* Break long words */
+    background-color: #f5f5f5 !important; /* Optional: Change background color */
+    padding: 10px !important; /* Optional: Add padding */
+    border-radius: 4px !important; /* Optional: Add rounded corners */
+}

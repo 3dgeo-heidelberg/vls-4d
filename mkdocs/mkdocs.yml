@@ -4,8 +4,8 @@ docs_dir: ../demo
 site_dir: ../site
 
 theme:
-  logo: ../demo/img/logo.png
-  favicon: ../demo/img/favicon.ico
+  logo: ../demo/img/3DGeo_globe_256.png
+  favicon: ../demo/img/3dgeo.ico
   name: material
   custom_dir: overrides
   palette:
@@ -17,6 +17,8 @@ theme:
     - navigation.top
     - navigation.footer
 use_directory_urls: false
+extra_css:
+  - css/custom.css
 plugins:
   - mkdocs-jupyter:
       include_source: True
@@ -29,6 +31,6 @@ markdown_extensions:
 
 nav:
 - 'Home': 'index.md'
-- '1 Concept of static representations': '01_concept_of_static_representations/01_concept_of_static_representations.ipynb'
-- '2 Concept of many static snapshots': '02_concept_of_many_static_snapshots/02_concept_of_many_static_snapshots.ipynb'
-- '3 Concept of animation within the simulator': '03_concept_of_animation_within_the_simulator/03_concept_of_animation_within_the_simulator.ipynb'
+- '1 Concept of static representations': '01_concept_of_static_representations.ipynb'
+- '2 Concept of many static snapshots': '02_concept_of_many_static_snapshots.ipynb'
+- '3 Concept of animation within the simulator': '03_concept_of_animation_within_the_simulator.ipynb'

@@ -1,7 +1,7 @@
 
-<img src="img/3DGeo_Logo_300dpi.png" alt="3DGeo Logo" title="3DGeo Logo" width=150>
-<img src="img/h++.png" alt="HELIOS++ Logo" title="HELIOS++ Logo" width=150>
-
+<img src="img/3DGeo_Logo_300dpi.png" alt="3DGeo Logo" title="3DGeo Logo" width=150 style="float: right;">
+<img src="img/h++.png" alt="HELIOS++ Logo" title="HELIOS++ Logo" width=150 style="float: left;">
+<br>
 
 # Virtual Laser Scanning of Dynamic Scenes (VLS-4D)
 
@@ -37,9 +37,9 @@ In three notebooks, we will give illustrate each concept with relevant applicati
 
 Use the following links to directly access the notebooks:
 
-1. [Static Representations](01_concept_of_static_representations/01_concept_of_static_representations.ipynb)
-2. [Many Static Snapshots](02_concept_of_many_static_snapshots/02_concept_of_many_static_snapshots.ipynb)
-3. [Animation within the Simulation](03_concept_of_animation_within_the_simulator/03_concept_of_animation_within_the_simulator.ipynb)
+1. [Static Representations](01_concept_of_static_representations.ipynb)
+2. [Many Static Snapshots](02_concept_of_many_static_snapshots.ipynb)
+3. [Animation within the Simulation](03_concept_of_animation_within_the_simulator.ipynb)
 
 ---
 
