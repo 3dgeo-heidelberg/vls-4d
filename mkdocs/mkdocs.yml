@@ -19,6 +19,8 @@ theme:
 use_directory_urls: false
 extra_css:
   - css/custom.css
+#extra_javascript:
+#  - javascripts/custom.js
 plugins:
   - mkdocs-jupyter:
       include_source: True
