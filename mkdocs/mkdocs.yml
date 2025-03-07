@@ -30,9 +30,10 @@ plugins:
   - search
 markdown_extensions:
   - attr_list
+  - abbr
 
 nav:
 - 'Home': 'index.md'
-- '1 Concept of static representations': '01_concept_of_static_representations.ipynb'
-- '2 Concept of many static snapshots': '02_concept_of_many_static_snapshots.ipynb'
-- '3 Concept of animation within the simulator': '03_concept_of_animation_within_the_simulator.ipynb'
+- '1 Concept of static representations': '01_static_snapshot_per_epoch.ipynb'
+- '2 Concept of many static snapshots': '02_static_snapshots_within_epoch.ipynb'
+- '3 Concept of animation within the simulator': '03_animation_within_the_simulator.ipynb'
