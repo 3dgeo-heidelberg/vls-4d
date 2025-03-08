@@ -1,7 +1,7 @@
 
-<img src="img/3DGeo_Logo_300dpi.png" alt="3DGeo Logo" title="3DGeo Logo" width=150>
-<img src="img/h++.png" alt="HELIOS++ Logo" title="HELIOS++ Logo" width=150>
-
+<img src="img/3DGeo_Logo_300dpi.png" alt="3DGeo Logo" title="3DGeo Logo" width=150 style="float: right;">
+<img src="img/h++.png" alt="HELIOS++ Logo" title="HELIOS++ Logo" width=150 style="float: left;">
+<br>
 
 # Virtual Laser Scanning of Dynamic Scenes (VLS-4D)
 
@@ -13,7 +13,7 @@ Year: 2025
 
 This webpage provides an overview of the VLS-4D framework using a variety of examples from the field of vegetation monitoring, simulated with the Heidelberg LiDAR Operations Simulator [HELIOS++](https://github.com/3dgeo-heidelberg/helios).
 
-VLS-4D refers to virtual laser scanning (VLS) of dynamic scenes. This means that instead of loading a static 3D scene and virtually scanning it in a single epoch, as done by the majority of recent studies, we work with a dynamic scene.
+VLS-4D refers to VLS of dynamic scenes. This means that instead of loading a static 3D scene and virtually scanning it in a single epoch, as done by the majority of recent studies, we work with a dynamic scene.
 
 This opens up a range of application in the field of remote sensing of the environment.
 
@@ -23,7 +23,7 @@ This opens up a range of application in the field of remote sensing of the envir
 
 This dynamic scene can be represented as (a) a sequence of static 3D scenes (e.g., 3D meshes), or by (b) a single 3D scene that changes during the simulation.
 
-In the case of a sequence of static 3D scenes, each scene represents a different point in time. We can scan the different versions of the scene in multiple surveys to create multi-temporal laser scanning point clouds or point cloud time series.
+In the case of a sequence of static 3D scenes, each scene represents a different point in time. We can scan the different versions of the scene in multiple surveys to create multi-temporal laser scanning point clouds or point cloud time series. Or the static versions represent the dynamics of a scene within a single survey, which is divided into several snapshots, e.g., the individual scans in a multi-station TLS campaign. 
 
 In the case of a single animated 3D scene, the scene moves or deforms during the simulation, i.e., within a single epoch. In HELIOS++, object movements in the form of rigid motions (e.g., translation, rotation) are supported and can be defined via the scene XML syntax. 
 
@@ -37,9 +37,9 @@ In three notebooks, we will give illustrate each concept with relevant applicati
 
 Use the following links to directly access the notebooks:
 
-1. [Static Representations](01_concept_of_static_representations/01_concept_of_static_representations.ipynb)
-2. [Many Static Snapshots](02_concept_of_many_static_snapshots/02_concept_of_many_static_snapshots.ipynb)
-3. [Animation within the Simulation](03_concept_of_animation_within_the_simulator/03_concept_of_animation_within_the_simulator.ipynb)
+1. [Static Representations](01_static_snapshot_per_epoch.ipynb)
+2. [Many Static Snapshots](02_static_snapshots_within_epoch.ipynb)
+3. [Animation within the Simulation](03_animation_within_the_simulator.ipynb)
 
 ---
 
@@ -92,10 +92,21 @@ Use the following links to directly access the notebooks:
     <tbody>
         <tr>
             <td><img src="img/AIMon.png" alt="AIMON5.0 Logo" title="AIMon5.0 Logo" width="200"></td>
-            <td><a href="https://www.geog.uni-heidelberg.de/gis/aimon.html"></a>AIMON5.0</td>
+            <td><a href="https://www.geog.uni-heidelberg.de/gis/aimon.html">AIMON5.0</a></td>
             <td>02WDG1696</td>
         </tr>
     </tbody>
 </table>
 
 </details>
+
+<br>
+
+**Contact**
+
+---
+
+*[VLS]: Virtual Laser Scanning
+*[VLS-4D]: Virtual Laser Scanning of dynamic scenes
+*[TLS]: Terrestrial Laser Scanning
+*[LiDAR]: Light Detection and Ranging
