@@ -4,8 +4,8 @@ docs_dir: ../docs
 site_dir: ../site
 
 theme:
-  logo: ../docs/img/3DGeo_globe_256.png
-  favicon: ../docs/img/3dgeo.ico
+  logo: img/3DGeo_globe_256.png
+  favicon: img/3dgeo.ico
   name: material
   custom_dir: overrides
   palette:
