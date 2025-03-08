@@ -1,11 +1,11 @@
 site_name: VLS-4D
 repo_url: https://github.com/3dgeo-heidelberg/vls-4d
-docs_dir: ../demo
+docs_dir: ../docs
 site_dir: ../site
 
 theme:
-  logo: ../demo/img/3DGeo_globe_256.png
-  favicon: ../demo/img/3dgeo.ico
+  logo: ../docs/img/3DGeo_globe_256.png
+  favicon: ../docs/img/3dgeo.ico
   name: material
   custom_dir: overrides
   palette:
@@ -19,14 +19,11 @@ theme:
 use_directory_urls: false
 extra_css:
   - css/custom.css
-#extra_javascript:
-#  - javascripts/custom.js
 plugins:
   - mkdocs-jupyter:
       include_source: True
       include_requirejs: true
       ignore_h1_titles: True
-      ignore: ["scripts/*.py"]
   - search
 markdown_extensions:
   - attr_list
