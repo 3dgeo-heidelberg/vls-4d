@@ -1,5 +1,9 @@
 from pathlib import Path
 import xml.etree.ElementTree as ET
+import tempfile
+import requests
+import zipfile
+import shutil
 import numpy as np
 import laspy
 
@@ -59,3 +63,39 @@ def display_xml(path, item=None, line_limit=None):
         xml_return = '\n'.join(xml_return.split('\n')[:line_limit])
     
     return xml_return
+
+
+def download_from_url(url, target_dir, subdir_path=None):
+    temp_dir = tempfile.mkdtemp()
+    try:
+        # download data
+        response = requests.get(url)
+        response.raise_for_status()
+        zip_file_path = Path(temp_dir) / 'temp.zip'
+        with open(zip_file_path, 'wb') as f:
+            f.write(response.content)
+        
+        # unzip the file
+        with zipfile.ZipFile(zip_file_path, 'r') as zip_ref:
+            if subdir_path:
+                file_list = [f for f in zip_ref.namelist() if f.startswith(subdir_path)]
+                zip_ref.extractall(temp_dir, members=file_list)
+            else:
+                zip_ref.extractall(temp_dir)
+        # list content of temp_dir
+        temp_file_path = [p for p in Path(temp_dir).glob('*') if p.is_dir()][0]
+
+    except requests.exceptions.RequestException as e:
+        print(f'Failed to download data: {e}')
+    except zipfile.BadZipFile as e:
+        print(f'Failed to unpack data: {e}')
+    
+    Path(target_dir).mkdir(parents=True, exist_ok=True)
+    # copy from temp_dir to target_dir
+    try:
+        for f in Path(temp_file_path).glob('*'):
+            shutil.move(f, target_dir)
+        print(f'Successfully downloaded and unpacked data to "{target_dir}"')
+    except Exception as e:
+        print(e)
+        print('To overwrite, delete the folder(s) in the target directory and try again.')
