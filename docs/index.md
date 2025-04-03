@@ -6,7 +6,7 @@
 # Virtual Laser Scanning of Dynamic Scenes (VLS-4D)
 
 Author: Hannah Weiser <br>
-Contributors: Bernhard Höfle <br>
+Contributors: William Albert, Ronald Tabernig, Bernhard Höfle <br>
 Year: 2025
 
 ---
@@ -37,9 +37,9 @@ In three notebooks, we will give illustrate each concept with relevant applicati
 
 Use the following links to directly access the notebooks:
 
-1. [Static Representations](01_static_snapshot_per_epoch.ipynb)
-2. [Static Snapshots within epoch](02_static_snapshots_within_epoch.ipynb)
-3. [Animation within the Simulation](03_animation_within_the_simulator.ipynb)
+1. [One static snapshot per epoch](01_static_snapshot_per_epoch.ipynb)
+2. [Several static snapshots within an epoch](02_static_snapshots_within_epoch.ipynb)
+3. [Animation within the simulation](03_animation_within_the_simulator.ipynb)
 
 ---
 
