@@ -23,11 +23,11 @@ This opens up a range of application in the field of remote sensing of the envir
 
 This dynamic scene can be represented as (a) a sequence of static 3D scenes (e.g., 3D meshes), or by (b) a single 3D scene that changes during the simulation.
 
-In the case of a sequence of static 3D scenes, each scene represents a different point in time. We can scan the different versions of the scene in multiple surveys to create multi-temporal laser scanning point clouds or point cloud time series. Or the static versions represent the dynamics of a scene within a single survey, which is divided into several snapshots, e.g., the individual scans in a multi-station TLS campaign. 
+In the case of a sequence of static 3D scenes, each scene represents a different point in time. We can scan the different versions of the scene in multiple surveys to create multi-temporal laser scanning point clouds or point cloud time series. Or the static versions represent the dynamics of a scene within a single survey, which is divided into several scans, e.g., from different flight lines in airborne laser scanning or different scan positions in terrestrial laser scanning. 
 
 In the case of a single animated 3D scene, the scene moves or deforms during the simulation, i.e., within a single epoch. In HELIOS++, object movements in the form of rigid motions (e.g., translation, rotation) are supported and can be defined via the scene XML syntax. 
 
-These mechanisms lead to three concept of VLS-4D: The concept of static representations, the concept of many static sapshots, and the concept of animation within the simulation.
+The described mechanisms lead to three concept of VLS-4D: The concept of one static snapshot per epoch, the concept of static snapshots within an epoch, and the concept of animation within the simulation.
 
 <center>
 <img src="img/change_logic_concepts.png" alt="VLS-4D Change Logic Concepts" title="VLS-4D change logic concepts" width="800">
@@ -38,7 +38,7 @@ In three notebooks, we will give illustrate each concept with relevant applicati
 Use the following links to directly access the notebooks:
 
 1. [Static Representations](01_static_snapshot_per_epoch.ipynb)
-2. [Many Static Snapshots](02_static_snapshots_within_epoch.ipynb)
+2. [Static Snapshots within epoch](02_static_snapshots_within_epoch.ipynb)
 3. [Animation within the Simulation](03_animation_within_the_simulator.ipynb)
 
 ---
