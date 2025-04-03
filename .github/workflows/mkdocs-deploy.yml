@@ -1,0 +1,20 @@
+name: deploy_to_gh-pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: 3.13
+      - run: pip install --upgrade pip && pip install -U mkdocs mkdocs-jupyter mkdocs-material jupyter_contrib_nbextensions jupyterlab
+      - run: git config user.name 'github-actions[bot]' && git config user.email 'github-actions[bot]@users.noreply.github.com'
+      - run: mkdocs gh-deploy --config-file mkdocs/mkdocs.yml --force --clean
