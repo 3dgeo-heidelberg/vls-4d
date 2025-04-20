@@ -102,7 +102,13 @@ Use the following links to directly access the notebooks:
 
 <br>
 
-**Contact**
+<b>Contact</b>
+
+Hannah Weiser<br>
+h.weiser@uni-heidelberg.de<br>
+[3D Geospatial Data Processing (3DGeo) Research Group](https://www.geog.uni-heidelberg.de/3dgeo/index_en.html)<br>
+Institute of Geography<br>
+Heidelberg University
 
 ---
 
