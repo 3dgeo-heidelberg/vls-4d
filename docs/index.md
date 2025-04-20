@@ -41,9 +41,13 @@ Use the following links to directly access the notebooks:
 2. [Several static snapshots within an epoch](02_static_snapshots_within_epoch.ipynb)
 3. [Animation within the simulation](03_animation_within_the_simulator.ipynb)
 
+**Related Preprint**
+
+> Weiser, H. & Höfle, B. (2025): Advancing vegetation monitoring with virtual laser scanning of dynamic scenes (VLS-4D): Opportunities, implementations and future perspectives. EarthArXiv. [https://doi.org/10.31223/X51Q5V](https://doi.org/10.31223/X51Q5V).
+
 ---
 
-**Funding**:
+**Funding**
 
 <img src="img/dfg_logo_englisch_blau_en.jpg" alt="DFG Logo" title="DFG Logo" width="200">
 
@@ -102,7 +106,7 @@ Use the following links to directly access the notebooks:
 
 <br>
 
-<b>Contact</b>
+**Contact**
 
 Hannah Weiser<br>
 h.weiser@uni-heidelberg.de<br>
