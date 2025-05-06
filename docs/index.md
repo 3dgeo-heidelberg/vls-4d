@@ -110,7 +110,7 @@ Use the following links to directly access the notebooks:
 
 Hannah Weiser<br>
 h.weiser@uni-heidelberg.de<br>
-[3D Geospatial Data Processing (3DGeo) Research Group](https://www.geog.uni-heidelberg.de/3dgeo/index_en.html)<br>
+[3D Geospatial Data Processing (3DGeo) Research Group](https://www.geog.uni-heidelberg.de/en/3dgeo)<br>
 Institute of Geography<br>
 Heidelberg University
 
