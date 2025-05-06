@@ -11,4 +11,4 @@ This data (`demo/data` and the `sceneparts` downloaded for each example) is lice
 ## Contact
 
 Hannah Weiser, h.weiser@uni-heidelberg.de \
-[3DGeo Research Group](https://www.geog.uni-heidelberg.de/3dgeo/index_en.html), Institute of Geography, Heidelberg University
+[3DGeo Research Group](https://www.geog.uni-heidelberg.de/en/3dgeo), Institute of Geography, Heidelberg University
