@@ -43,7 +43,7 @@ Use the following links to directly access the notebooks:
 
 **Related Preprint**
 
-> Weiser, H. & Höfle, B. (2025): Advancing vegetation monitoring with virtual laser scanning of dynamic scenes (VLS-4D): Opportunities, implementations and future perspectives. EarthArXiv. [https://doi.org/10.31223/X51Q5V](https://doi.org/10.31223/X51Q5V).
+ Weiser, H., & Höfle, B. (2025). Advancing vegetation monitoring with virtual laser scanning of dynamic scenes (VLS-4D): Opportunities, implementations and future perspectives. Methods in Ecology and Evolution. [https://doi.org/10.1111/2041-210x.70189](https://doi.org/10.1111/2041-210x.70189).
 
 ---
 
