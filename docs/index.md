@@ -41,9 +41,9 @@ Use the following links to directly access the notebooks:
 2. [Several static snapshots within an epoch](02_static_snapshots_within_epoch.ipynb)
 3. [Animation within the simulation](03_animation_within_the_simulator.ipynb)
 
-**Related Preprint**
+**Related Publication**
 
- Weiser, H., & Höfle, B. (2025). Advancing vegetation monitoring with virtual laser scanning of dynamic scenes (VLS-4D): Opportunities, implementations and future perspectives. Methods in Ecology and Evolution. [https://doi.org/10.1111/2041-210x.70189](https://doi.org/10.1111/2041-210x.70189).
+Weiser, H., & Höfle, B. (2026). Advancing vegetation monitoring with virtual laser scanning of dynamic scenes (VLS-4D): Opportunities, implementations and future perspectives. Methods in Ecology and Evolution, 17, 33–51. [https://doi.org/10.1111/2041-210x.70189](https://doi.org/10.1111/2041-210x.70189).
 
 ---
 
